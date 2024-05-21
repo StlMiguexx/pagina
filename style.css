@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 20px;
+    
+
+}
+
+img {
+    margin-left: 30px;
+    border-radius: 1rem;
+}
+
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;  
+}
+
+.navbar a:hover {
+    background: #3f3f3f;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    height: 60vh !important;
+    background: url(ingenieria-software.jpg) no-repeat center;
+    background-size: cover; 
+}
+
+.title {
+    margin-bottom: 1px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.title1 {
+    margin-bottom: 1px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.video1 {
+    height: 20rem;
+    width: 30rem;
+    background: #101010;
+    border-radius: 1rem;
+    box-shadow: 4 .3 5rem rgb(0, 0, 5);
+    margin: 2rem;
+}
+
+p {
+    margin-bottom: 1px;
+    font-size: 19px;
+    color: #fff;
+    }
+
+.p1 {
+    margin-bottom: -1px;
+    font-size: 19px;
+    color: #000;
+    }
+    
+    .content {
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content:  center;
+        align-items: center;
+    }
+    
+.sau {
+    padding: 43px;
+    background: #1f1d1d;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+
+.box-container .box{
+    height: 14rem;
+    width: 21rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 4 .3 5rem rgb(0, 0, 5);
+    margin: 2rem;
+}
+
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #9c27b0;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.box-container .box h2{
+    font-size: 20px;
+    color: #9c27b0;
+}
+
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.price {
+    background: url(fondo1.png) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+    
+.contact {
+    padding-top: 20px;
+    background: #171717;
+    padding-bottom: 0;
+}
+
+
+.contact  .ing i{
+    height: 1rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+@media (max-width: 768px) {
+
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .title1 {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+    
+    .sau {
+        height: 120vh;
+    }
+}
+
+
+
+
